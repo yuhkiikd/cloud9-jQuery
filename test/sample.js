@@ -1,7 +1,6 @@
 $(document).ready(function(){
   
   let subject_points; //　←関数の外に出して合否判定でも使えるようにしました。
-  
   function score_indicate(){
     subject_points = [Number($('#national_language').val()),//　←空っぽの変数に配列を格納 
                       Number($('#english').val()),
